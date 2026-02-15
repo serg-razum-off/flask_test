@@ -1,0 +1,17 @@
+INFO:     Will watch for changes in these directories: ['/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [81854] using StatReload
+INFO:     Started server process [81863]
+INFO:     Waiting for application startup.
+2026-02-15 16:16:26,419 - fin_app.extra.create_app - INFO - 
+
+ >> 🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-02-15 16:17:54,708 - fin_app.extra.create_app - INFO - 
+
+ >> ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [81863]
+INFO:     Stopping reloader process [81854]
