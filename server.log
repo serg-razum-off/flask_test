@@ -1,11 +1,99 @@
 INFO:     Will watch for changes in these directories: ['/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test']
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [114166] using StatReload
-INFO:     Started server process [114176]
+INFO:     Started reloader process [116289] using StatReload
+INFO:     Started server process [116298]
 INFO:     Waiting for application startup.
-INFO - 2026-02-15 21:32:36,236 - >> 
+INFO - 2026-02-15 21:37:32,864 - >> 
   🔧 Project is starting up on 127.0.0.1:8000
-INFO - 2026-02-15 21:32:36,236 - >> 
+INFO - 2026-02-15 21:37:32,865 - >> 
  🔧 Checking database status...
-INFO - 2026-02-15 21:32:36,282 - ✅ Database is ready and tables are verified.
+INFO - 2026-02-15 21:37:32,865 - ✅ Database is ready and tables are verified.
 INFO:     Application startup complete.
+INFO:     127.0.0.1:49050 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49050 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41708 - "POST /users?name=one&email=one%40myorg.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38594 - "POST /users?name=one&email=two%40myorg.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43562 - "GET /users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55358 - "POST /transaction?user_id=1&amount=10&category=Food&description=Fora HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "POST /transaction?user_id=1&amount=10&category=AbrA&description=Fora HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 424, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 314, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/transactions.py", line 10, in add_transaction
+    transaction = db.add_transaction(user_id, amount, category, description)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 96, in add_transaction
+    return self.get_transaction(cursor.lastrowid)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 103, in get_transaction
+    return Transaction(**dict(row)) if row else None
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/pydantic/main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Transaction
+category
+  Input should be 'Food', 'Transport', 'Housing', 'Entertainment' or 'Other' [type=enum, input_value='AbrA', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/enum
