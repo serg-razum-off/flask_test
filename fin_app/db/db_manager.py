@@ -86,6 +86,10 @@ class DBManager:
     def add_transaction(
         self, user_id: int, amount: float, category: str, description: str
     ) -> Transaction | None:
+        # Pydantic validation
+        Transaction(
+            user_id=user_id, amount=amount, category=category, description=description
+        )
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute(
@@ -117,6 +121,10 @@ class DBManager:
         category: str,
         description: str,
     ) -> Transaction | None:
+        # Pydantic validation
+        Transaction(
+            user_id=user_id, amount=amount, category=category, description=description
+        )
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute(

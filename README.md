@@ -4,5 +4,5 @@
 
 ## killing
 `pkill -f uvicorn`
-`fuser -k 8000/tcp` if [Errno 98] Already in use
+`fuser -k 8000/tcp` if [Errno 98] Already in use || other Err on Server side
 `kill $(lsof -ti:8000)` alternative

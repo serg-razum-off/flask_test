@@ -12,10 +12,10 @@ class Category(str, Enum):
 
 
 class Transaction(BaseModel):
-    id: int
+    id: int | None = None
     user_id: int
     amount: float
     description: str
     category: Category
-    created: datetime
-    updated: datetime
+    created: datetime | None = None
+    updated: datetime | None = None

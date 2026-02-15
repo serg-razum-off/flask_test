@@ -1,21 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test']
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [116289] using StatReload
-INFO:     Started server process [116298]
+INFO:     Started reloader process [126297] using StatReload
+INFO:     Started server process [126306]
 INFO:     Waiting for application startup.
-INFO - 2026-02-15 21:37:32,864 - >> 
+INFO - 2026-02-15 22:00:08,387 - >> 
   🔧 Project is starting up on 127.0.0.1:8000
-INFO - 2026-02-15 21:37:32,865 - >> 
+INFO - 2026-02-15 22:00:08,387 - >> 
  🔧 Checking database status...
-INFO - 2026-02-15 21:37:32,865 - ✅ Database is ready and tables are verified.
+INFO - 2026-02-15 22:00:08,387 - ✅ Database is ready and tables are verified.
 INFO:     Application startup complete.
-INFO:     127.0.0.1:49050 - "GET /docs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49050 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41708 - "POST /users?name=one&email=one%40myorg.com HTTP/1.1" 200 OK
-INFO:     127.0.0.1:38594 - "POST /users?name=one&email=two%40myorg.com HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43562 - "GET /users HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55358 - "POST /transaction?user_id=1&amount=10&category=Food&description=Fora HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57292 - "POST /transaction?user_id=1&amount=10&category=AbrA&description=Fora HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:59326 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59326 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36274 - "POST /transaction?user_id=2&amount=20&category=Abbra&description=nnext HTTP/1.1" 500 Internal Server Error
 ERROR:    Exception in ASGI application
 Traceback (most recent call last):
   File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 410, in run_asgi
@@ -85,15 +81,16 @@ Traceback (most recent call last):
     result = context.run(func, *args)
   File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/transactions.py", line 10, in add_transaction
     transaction = db.add_transaction(user_id, amount, category, description)
-  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 96, in add_transaction
-    return self.get_transaction(cursor.lastrowid)
-           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 103, in get_transaction
-    return Transaction(**dict(row)) if row else None
-           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 90, in add_transaction
+    Transaction(
+    ~~~~~~~~~~~^
+        user_id=user_id, amount=amount, category=category, description=description
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
   File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/pydantic/main.py", line 250, in __init__
     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
 pydantic_core._pydantic_core.ValidationError: 1 validation error for Transaction
 category
-  Input should be 'Food', 'Transport', 'Housing', 'Entertainment' or 'Other' [type=enum, input_value='AbrA', input_type=str]
+  Input should be 'Food', 'Transport', 'Housing', 'Entertainment' or 'Other' [type=enum, input_value='Abbra', input_type=str]
     For further information visit https://errors.pydantic.dev/2.12/v/enum
