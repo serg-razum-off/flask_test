@@ -55,6 +55,13 @@ class DBManager:
         row = cursor.fetchone()
         return User(**dict(row)) if row else None
 
+    def list_users(self) -> list[User]:
+        self._check_connection()
+        cursor = self.conn.cursor()
+        cursor.execute("SELECT * FROM users")
+        rows = cursor.fetchall()
+        return [User(**dict(row)) for row in rows]
+
     def update_user(self, user_id: int, name: str, email: str) -> User | None:
         self._check_connection()
         cursor = self.conn.cursor()
@@ -82,7 +89,7 @@ class DBManager:
     def get_transaction(self, transaction_id: int):
         pass
 
-    def get_transaction(self, transaction_id: int):
+    def list_transactions(self):
         pass
 
     def update_transaction(self, transaction: Transaction):
