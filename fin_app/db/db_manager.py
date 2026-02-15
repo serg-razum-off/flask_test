@@ -17,7 +17,7 @@ class DBManager:
         if not os.path.exists(db_path):
             init_db()
 
-    ## ------------- Context Manager -------------
+    # region ------------- Context Manager -------------
     def __enter__(self):
         self.connect()
         return self  # SR: for with DBManager() as db:
@@ -38,7 +38,9 @@ class DBManager:
     def disconnect(self):
         self.conn.close()
 
-    ## ------------- Users -------------
+    # endregion
+
+    # region ---------------- Users ----------------
     def add_user(self, name: str, email: str) -> User | None:
         self._check_connection()
         cursor = self.conn.cursor()
@@ -71,17 +73,22 @@ class DBManager:
         self.conn.commit()
         return deleted_count > 0
 
-    ## ------------- Transactions -------------
-    # def add_transaction(self, transaction: Transaction):
-    #     pass
+    # endregion
 
-    # def get_transaction(self, transaction_id: int):
-    #     pass
-    # def get_transaction(self, transaction_id: int):
-    #     pass
+    # region ---------------- Transactions ----------------
+    def add_transaction(self, transaction: Transaction):
+        pass
 
-    # def update_transaction(self, transaction: Transaction):
-    #     pass
+    def get_transaction(self, transaction_id: int):
+        pass
 
-    # def delete_transaction(self, transaction_id: int):
-    #     pass
+    def get_transaction(self, transaction_id: int):
+        pass
+
+    def update_transaction(self, transaction: Transaction):
+        pass
+
+    def delete_transaction(self, transaction_id: int):
+        pass
+
+    # endregion
