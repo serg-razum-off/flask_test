@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from fin_app.settings.config import HOST, PORT
+from fin_app.routers.users import users_router
+from fin_app.routers.base import base_router
 from contextlib import asynccontextmanager
 import logging
 
@@ -28,4 +30,6 @@ def create_app() -> FastAPI:
         version="0.1.0",
         lifespan=lifespan,
     )
+    app.include_router(users_router)
+    app.include_router(base_router)
     return app

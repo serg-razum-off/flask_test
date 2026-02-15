@@ -516,3 +516,982 @@ INFO:     Waiting for application startup.
 INFO - 2026-02-15 18:17:40,667 - >> 
   🚀 Project is starting up on 127.0.0.1:8000
 INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:19:51,993 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23765]
+INFO:     Started server process [24709]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:19:52,180 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:21:01,057 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24709]
+INFO:     Started server process [25223]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:21:01,249 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:21:14,888 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25223]
+INFO:     Started server process [25332]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:21:15,073 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:22:36,176 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25332]
+INFO:     Started server process [25839]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:22:36,372 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:23:17,864 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25839]
+INFO:     Started server process [26099]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:23:18,050 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:25:09,295 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [26099]
+INFO:     Started server process [26801]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:25:09,482 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:26:16,235 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [26801]
+INFO:     Started server process [27222]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:26:16,422 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:26:20,734 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27222]
+INFO:     Started server process [27290]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:26:20,929 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:26:28,249 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27290]
+INFO:     Started server process [27340]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:26:28,445 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:27:44,714 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27340]
+INFO:     Started server process [27810]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:27:44,897 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:27:52,217 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27810]
+INFO:     Started server process [27868]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:27:52,409 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:28:00,829 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27868]
+INFO:     Started server process [27919]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:28:01,013 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:28:07,231 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27919]
+INFO:     Started server process [27978]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:28:07,420 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:28:52,420 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27978]
+INFO:     Started server process [28475]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:28:52,605 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/routers/users.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:37:00,149 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28475]
+INFO:     Started server process [31834]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:37:00,335 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/extra/create_app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:37:02,242 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31834]
+INFO:     Started server process [31853]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:37:02,499 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+INFO:     127.0.0.1:51462 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37900 - "POST /users?name=John&email=john@example.com HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 424, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 314, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 9, in add_user
+    with DBManager() as db:
+         ~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 14, in __enter__
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 21, in connect
+    self.conn = sqlite3.connect(self.db_path)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+INFO:     127.0.0.1:58648 - "POST /users?name=John&email=john@example.com HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 424, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 314, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 9, in add_user
+    with DBManager() as db:
+         ~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 14, in __enter__
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 21, in connect
+    self.conn = sqlite3.connect(self.db_path)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+INFO:     127.0.0.1:51254 - "POST /users?name=John&email=john@example.com HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/protocols/http/h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 424, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/fastapi/routing.py", line 314, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 9, in add_user
+    with DBManager() as db:
+         ~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 14, in __enter__
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 21, in connect
+    self.conn = sqlite3.connect(self.db_path)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:49:07,826 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31853]
+Process SpawnProcess-60:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 20
+    def __enter__(self):
+    ^^^
+IndentationError: expected an indented block after function definition on line 16
+WARNING:  StatReload detected changes in 'fin_app/db/db_scripts_DDL.py'. Reloading...
+Process SpawnProcess-61:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 20
+    def __enter__(self):
+    ^^^
+IndentationError: expected an indented block after function definition on line 16
+WARNING:  StatReload detected changes in 'fin_app/settings/config.py'. Reloading...
+Process SpawnProcess-62:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/db/db_manager.py", line 20
+    def __enter__(self):
+    ^^^
+IndentationError: expected an indented block after function definition on line 16
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Started server process [39684]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:51:46,251 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:51:51,264 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39684]
+INFO:     Started server process [39716]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:51:51,473 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:52:01,801 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39716]
+INFO:     Started server process [39784]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:52:02,007 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:52:06,417 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39784]
+INFO:     Started server process [39824]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 18:52:06,640 - >> 
+  🚀 Project is starting up on 127.0.0.1:8000
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'fin_app/db_app/db_manager.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 18:52:32,398 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39824]
+Process SpawnProcess-67:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+ModuleNotFoundError: No module named 'fin_app.db'
+WARNING:  StatReload detected changes in 'fin_app/db_app/__init__.py'. Reloading...
+Process SpawnProcess-68:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+ModuleNotFoundError: No module named 'fin_app.db'
+WARNING:  StatReload detected changes in 'fin_app/db_app/db_manager.py'. Reloading...
+Process SpawnProcess-69:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+ModuleNotFoundError: No module named 'fin_app.db'
+WARNING:  StatReload detected changes in 'fin_app/db_app/db_manager.py'. Reloading...
+Process SpawnProcess-70:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+ModuleNotFoundError: No module named 'fin_app.db'
+WARNING:  StatReload detected changes in 'fin_app/db_app/db_manager.py'. Reloading...
+Process SpawnProcess-71:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+ModuleNotFoundError: No module named 'fin_app.db'
+WARNING:  StatReload detected changes in 'fin_app/main.py'. Reloading...
+Process SpawnProcess-72:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib64/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/.venv/lib64/python3.14/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1314, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/__init__.py", line 1, in <module>
+    from .extra.create_app import create_app
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/extra/create_app.py", line 3, in <module>
+    from fin_app.routers.users import users_router
+  File "/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test/fin_app/routers/users.py", line 2, in <module>
+    from fin_app.db.db_manager import DBManager
+ModuleNotFoundError: No module named 'fin_app.db'

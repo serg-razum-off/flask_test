@@ -1,5 +1,7 @@
+import os
 import sqlite3
 from fin_app.settings.config import DB_PATH
+from fin_app.db.db_scripts_DDL import init_db
 
 
 class DBManager:
@@ -9,6 +11,9 @@ class DBManager:
     def __init__(self, db_path: str = DB_PATH):
         self.db_path = db_path
         self.conn = None
+        # validate if sql db exists, if not create it
+        if not os.path.exists(db_path):
+            init_db()
 
     def __enter__(self):
         self.connect()
@@ -35,6 +40,7 @@ class DBManager:
         cursor = self.conn.cursor()
         cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", (name, email))
         self.conn.commit()
+        return self.get_user(cursor.lastrowid)
 
     def get_user(self, user_id: int):
         self._check_connection()
@@ -50,13 +56,15 @@ class DBManager:
             (name, email, user_id),
         )
         self.conn.commit()
-        return cursor.fetchone()
+        return self.get_user(user_id)
 
     def delete_user(self, user_id: int):
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute("DELETE FROM users WHERE id = ?", (user_id,))
+        deleted_count = cursor.rowcount
         self.conn.commit()
+        return deleted_count > 0
 
     # def add_transaction(self, transaction: Transaction):
     #     pass
