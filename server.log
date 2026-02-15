@@ -1,10 +1,10 @@
-   Building 20260215-test @ file:///home/sergiir/Projects/CoreStudy/Hilel-School/y.%20FastAPI%20Practice/20260215_test
-  × Failed to build `20260215-test @
+   Building fin-app @ file:///home/sergiir/Projects/CoreStudy/Hilel-School/y.%20FastAPI%20Practice/20260215_test
+  × Failed to build `fin-app @
   │ file:///home/sergiir/Projects/CoreStudy/Hilel-School/y.%20FastAPI%20Practice/20260215_test`
   ├─▶ The build backend returned an error
   ╰─▶ Call to `uv_build.build_editable` failed (exit status: 1)
 
       [stderr]
-      Error: Expected a Python module at: src/20260215_test/__init__.py
+      Error: Expected a Python module at: src/fin_app/__init__.py
 
       hint: This usually indicates a problem with the package or the build environment.
