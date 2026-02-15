@@ -2,6 +2,8 @@ import os
 import sqlite3
 from fin_app.settings.config import DB_PATH
 from fin_app.db.db_scripts_DDL import init_db
+from fin_app.models.user import User
+from fin_app.models.transaction import Transaction
 
 
 class DBManager:
@@ -15,6 +17,7 @@ class DBManager:
         if not os.path.exists(db_path):
             init_db()
 
+    ## ------------- Context Manager -------------
     def __enter__(self):
         self.connect()
         return self  # SR: for with DBManager() as db:
@@ -35,20 +38,22 @@ class DBManager:
     def disconnect(self):
         self.conn.close()
 
-    def add_user(self, name: str, email: str):
+    ## ------------- Users -------------
+    def add_user(self, name: str, email: str) -> User | None:
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", (name, email))
         self.conn.commit()
         return self.get_user(cursor.lastrowid)
 
-    def get_user(self, user_id: int):
+    def get_user(self, user_id: int) -> User | None:
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute("SELECT * FROM users WHERE id = ?", (user_id,))
-        return cursor.fetchone()
+        row = cursor.fetchone()
+        return User(**dict(row)) if row else None
 
-    def update_user(self, user_id: int, name: str, email: str):
+    def update_user(self, user_id: int, name: str, email: str) -> User | None:
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute(
@@ -58,7 +63,7 @@ class DBManager:
         self.conn.commit()
         return self.get_user(user_id)
 
-    def delete_user(self, user_id: int):
+    def delete_user(self, user_id: int) -> bool:
         self._check_connection()
         cursor = self.conn.cursor()
         cursor.execute("DELETE FROM users WHERE id = ?", (user_id,))
@@ -66,9 +71,12 @@ class DBManager:
         self.conn.commit()
         return deleted_count > 0
 
+    ## ------------- Transactions -------------
     # def add_transaction(self, transaction: Transaction):
     #     pass
 
+    # def get_transaction(self, transaction_id: int):
+    #     pass
     # def get_transaction(self, transaction_id: int):
     #     pass
 

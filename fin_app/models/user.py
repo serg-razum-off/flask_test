@@ -4,7 +4,7 @@ from datetime import datetime
 
 class User(BaseModel):
     id: int
-    username: str
+    name: str
     email: str
-    date_created: datetime
-    date_updated: datetime
+    created: datetime
+    updated: datetime
