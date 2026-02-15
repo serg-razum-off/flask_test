@@ -13,11 +13,11 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Lifespan context manager for FastAPI application."""
-    logger.info(f"\n\n >> 🚀 API is starting up on {HOST}:{PORT}")
+    logger.info(f"\n\n >> 🚀 Project is starting up on {HOST}:{PORT}")
     try:
         yield
     finally:
-        logger.info(f"\n\n >> ❌ API is shutting down on {HOST}:{PORT}")
+        logger.info(f"\n\n >> ❌ Project is shutting down on {HOST}:{PORT}")
 
 
 def create_app() -> FastAPI:
