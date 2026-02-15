@@ -1,11 +1,48 @@
 INFO:     Will watch for changes in these directories: ['/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test']
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [57748] using StatReload
-INFO:     Started server process [57757]
+INFO:     Started reloader process [61431] using StatReload
+INFO:     Started server process [61440]
 INFO:     Waiting for application startup.
-INFO - 2026-02-15 19:29:17,743 - >> 
+INFO - 2026-02-15 19:37:04,290 - >> 
   🔧 Project is starting up on 127.0.0.1:8000
-INFO - 2026-02-15 19:29:17,743 - >> 
+INFO - 2026-02-15 19:37:04,290 - >> 
  🔧 Checking database status...
-INFO - 2026-02-15 19:29:17,743 - ✅ Database is ready and tables are verified.
+INFO - 2026-02-15 19:37:04,290 - ✅ Database is ready and tables are verified.
 INFO:     Application startup complete.
+INFO:     127.0.0.1:37232 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37240 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'fin_app/routers/base.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 19:38:00,325 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61440]
+INFO:     Started server process [61884]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 19:38:00,536 - >> 
+  🔧 Project is starting up on 127.0.0.1:8000
+INFO - 2026-02-15 19:38:00,536 - >> 
+ 🔧 Checking database status...
+INFO - 2026-02-15 19:38:00,536 - ✅ Database is ready and tables are verified.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:38542 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38542 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38542 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38542 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'fin_app/routers/base.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO - 2026-02-15 19:39:14,231 - >> 
+  ❌ Project is shutting down on 127.0.0.1:8000
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61884]
+INFO:     Started server process [63348]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 19:39:14,443 - >> 
+  🔧 Project is starting up on 127.0.0.1:8000
+INFO - 2026-02-15 19:39:14,444 - >> 
+ 🔧 Checking database status...
+INFO - 2026-02-15 19:39:14,444 - ✅ Database is ready and tables are verified.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:35676 - "GET / HTTP/1.1" 200 OK
