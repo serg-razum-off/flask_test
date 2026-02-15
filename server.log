@@ -1,10 +1,11 @@
-   Building fin-app @ file:///home/sergiir/Projects/CoreStudy/Hilel-School/y.%20FastAPI%20Practice/20260215_test
-  × Failed to build `fin-app @
-  │ file:///home/sergiir/Projects/CoreStudy/Hilel-School/y.%20FastAPI%20Practice/20260215_test`
-  ├─▶ The build backend returned an error
-  ╰─▶ Call to `uv_build.build_editable` failed (exit status: 1)
-
-      [stderr]
-      Error: Expected a Python module at: src/fin_app/__init__.py
-
-      hint: This usually indicates a problem with the package or the build environment.
+INFO:     Will watch for changes in these directories: ['/home/sergiir/Projects/CoreStudy/Hilel-School/y. FastAPI Practice/20260215_test']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [114166] using StatReload
+INFO:     Started server process [114176]
+INFO:     Waiting for application startup.
+INFO - 2026-02-15 21:32:36,236 - >> 
+  🔧 Project is starting up on 127.0.0.1:8000
+INFO - 2026-02-15 21:32:36,236 - >> 
+ 🔧 Checking database status...
+INFO - 2026-02-15 21:32:36,282 - ✅ Database is ready and tables are verified.
+INFO:     Application startup complete.
