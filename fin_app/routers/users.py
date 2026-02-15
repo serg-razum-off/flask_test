@@ -11,13 +11,20 @@ def add_user(name: str, email: str):
     return user
 
 
-@users_router.get("/users/{user_id}")
+@users_router.get("/user/{user_id}")
 def get_user(user_id: int):
     with DBManager() as db:
         user = db.get_user(user_id)
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
     return user
+
+
+@users_router.get("/users")
+def get_list_users():
+    with DBManager() as db:
+        users = db.list_users()
+    return users
 
 
 @users_router.put("/users/{user_id}")

@@ -13,8 +13,9 @@ class Category(str, Enum):
 
 class Transaction(BaseModel):
     id: int
+    user_id: int
     amount: float
     description: str
     category: Category
-    date_created: datetime
-    date_updated: datetime
+    created: datetime
+    updated: datetime

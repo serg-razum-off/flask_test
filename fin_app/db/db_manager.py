@@ -83,19 +83,55 @@ class DBManager:
     # endregion
 
     # region ---------------- Transactions ----------------
-    def add_transaction(self, transaction: Transaction):
-        pass
+    def add_transaction(
+        self, user_id: int, amount: float, category: str, description: str
+    ) -> Transaction | None:
+        self._check_connection()
+        cursor = self.conn.cursor()
+        cursor.execute(
+            "INSERT INTO transactions (user_id, amount, category, description) VALUES (?, ?, ?, ?)",
+            (user_id, amount, category, description),
+        )
+        self.conn.commit()
+        return self.get_transaction(cursor.lastrowid)
 
-    def get_transaction(self, transaction_id: int):
-        pass
+    def get_transaction(self, transaction_id: int) -> Transaction | None:
+        self._check_connection()
+        cursor = self.conn.cursor()
+        cursor.execute("SELECT * FROM transactions WHERE id = ?", (transaction_id,))
+        row = cursor.fetchone()
+        return Transaction(**dict(row)) if row else None
 
-    def list_transactions(self):
-        pass
+    def list_transactions(self) -> list[Transaction]:
+        self._check_connection()
+        cursor = self.conn.cursor()
+        cursor.execute("SELECT * FROM transactions")
+        rows = cursor.fetchall()
+        return [Transaction(**dict(row)) for row in rows]
 
-    def update_transaction(self, transaction: Transaction):
-        pass
+    def update_transaction(
+        self,
+        transaction_id: int,
+        user_id: int,
+        amount: float,
+        category: str,
+        description: str,
+    ) -> Transaction | None:
+        self._check_connection()
+        cursor = self.conn.cursor()
+        cursor.execute(
+            "UPDATE transactions SET user_id = ?, amount = ?, category = ?, description = ?, updated = CURRENT_TIMESTAMP WHERE id = ?",
+            (user_id, amount, category, description, transaction_id),
+        )
+        self.conn.commit()
+        return self.get_transaction(transaction_id)
 
-    def delete_transaction(self, transaction_id: int):
-        pass
+    def delete_transaction(self, transaction_id: int) -> bool:
+        self._check_connection()
+        cursor = self.conn.cursor()
+        cursor.execute("DELETE FROM transactions WHERE id = ?", (transaction_id,))
+        deleted_count = cursor.rowcount
+        self.conn.commit()
+        return deleted_count > 0
 
     # endregion

@@ -9,36 +9,35 @@
 ## Project structure
 
 ```
-.
-├── fin_app
-│   ├── database
-│   │   ├── database.py
-│   │   ├── schemas
-│   │   │   ├── transaction.py
-│   │   │   └── user.py
-│   │   └── tables_unfolder.py
-│   ├── endpoints
+./
+├── data/
+│   └── fin_app.db
+├── fin_app/
+│   ├── db/
+│   │   ├── db_manager.py
+│   │   ├── db_scripts_DDL.py
+│   │   └── __init__.py
+│   ├── endpoints/
 │   │   ├── transactions.py
 │   │   └── users.py
-│   ├── extra
-│   │   ├── create_app.py
-│   │   └── __pycache__
-│   │       └── create_app.cpython-314.pyc
+│   ├── extra/
+│   │   └── create_app.py
 │   ├── __init__.py
-│   ├── models
+│   ├── main.py
+│   ├── models/
 │   │   ├── transaction.py
 │   │   └── user.py
-│   ├── __pycache__
-│   │   └── __init__.cpython-314.pyc
-│   ├── routers
-│   │   └── base.py
-│   └── settings
-│       ├── config.py
-│       └── __pycache__
-│           └── config.cpython-314.pyc
+│   ├── routers/
+│   │   ├── base.py
+│   │   ├── transactions.py
+│   │   └── users.py
+│   └── settings/
+│       └── config.py
+├── fin_app.db
 ├── pyproject.toml
 ├── README.md
-├── spec
+├── server.log
+├── spec/
 │   └── spec.md
 └── uv.lock
 ```

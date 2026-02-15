@@ -5,6 +5,7 @@ from fastapi import FastAPI
 from fin_app.settings.config import HOST, PORT
 from fin_app.routers.users import users_router
 from fin_app.routers.base import base_router
+from fin_app.routers.transactions import transaction_router
 from fin_app.db.db_manager import DBManager
 
 logging.basicConfig(
@@ -41,4 +42,5 @@ def create_app() -> FastAPI:
     )
     app.include_router(users_router)
     app.include_router(base_router)
+    app.include_router(transaction_router)
     return app
